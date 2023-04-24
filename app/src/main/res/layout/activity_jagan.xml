@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".jagan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANT NEAR JAGANNATH PURI"
+        android:textColor="@color/black"
+        style="bold"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10sp"
+        tools:ignore="HardcodedText">
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:background="@color/white"
+                android:src="@drawable/food"
+                android:contentDescription="TODO"
+                tools:ignore="ContentDescription,HardcodedText">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FOOD COURT"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#21 of 72 Restaurants in Puri\n
+Grand Road 3rd Floor, Above Bigbazar, Guru Empires Mall\n
+0.5 km from Shree Jagannath Temple\n
+Cuisines: Chinese, Indian, Fast food"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText">
+            </TextView>
+
+            <Button
+                android:id="@+id/vstjag1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="102dp"
+                android:text="visit"
+                android:textSize="11sp"
+                tools:ignore="DuplicateSpeakableTextCheck,HardcodedText">
+
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="142dp"
+                android:layout_height="130dp"
+                android:src="@drawable/great"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="THE GRAND REGENCY"
+                android:layout_marginStart="145dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                tools:ignore="HardcodedText">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#18 of 72 Restaurants in Puri\n
+Grand Road Srinahar,\n Upstairs of the Grand Centre Shopping Complex
+0.1 km from Shree Jagannath Temple/n
+Cuisines: Indian, Asian"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="25dp"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText">
+            </TextView>
+
+            <Button
+                android:id="@+id/vstjag2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="100dp"
+                android:text="visit"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:src="@drawable/hare"
+                tools:ignore="ContentDescription">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:text="HARE KRISHNA"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#23 of 72 Restaurants in Puri\n
+Vip Road\n
+0.4 km from Shree Jagannath Temple\n
+Cuisines: Indian, Asian"
+                android:layout_marginTop="22dp"
+                android:layout_marginStart="150dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                tools:ignore="HardcodedText">
+            </TextView>
+
+            <Button
+                android:id="@+id/vstjag3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="80dp"
+                android:text="visit"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="160dp"
+                android:src="@drawable/chung"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHUNG WAH RESTAURANT"
+                android:layout_marginStart="155dp"
+               android:layout_marginTop="20dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#1 of 72 Restaurants in Puri\n
+Hotel Lee Garden VIP Road Lee Garden Hotel\n
+1.4 km from Shree Jagannath Temple\n
+Cuisines: Chinese, Asian, Soups"
+                android:layout_marginStart="155dp"
+                android:layout_marginTop="37dp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText">
+            </TextView>
+
+            <Button
+                android:id="@+id/vstjag4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="92dp"
+                android:text="visit"
+                android:textSize="10sp"
+                tools:ignore="HardcodedText,SmallSp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
